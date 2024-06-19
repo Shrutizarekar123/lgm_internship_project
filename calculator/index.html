@@ -1,0 +1,98 @@
+<html>
+    <head>
+    <style>
+        html,body{
+    height:100%;
+    width:100%;
+    font-family: 'Times New Roman', Times, serif;
+    background-image:linear-gradient(to right ,rgb(26, 25, 25),rgb(201, 199, 199))
+}
+.button{
+    width: 80px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 40px;
+    font-weight:bold;
+    font-size: 20px;
+    cursor:pointer;
+}
+.button:hover{
+    background-color:rgb(203, 214, 236);
+}
+
+.row{
+    margin: 12px 0;
+}
+.row input{
+    width: 350px;
+    height: 100px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+
+.container{
+    background-color:rgb(78, 62, 62);
+    border: 2px solid black;
+    width:max-content;
+    border-radius: 30px;
+    text-align:center;
+    margin:auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 10px 20px rgb(192, 190, 190);
+}
+
+
+
+
+
+    </style>
+        <link rel="icon" href="https://th.bing.com/th/id/OIP.1P976sXD-HBTnewbQ5HGWwHaHa?pid=ImgDet&rs=1"/>
+        <title>simple calculator</title>
+    </head>
+    <body>
+        <h1 style="text-align: center; color: whitesmoke;">Welcome to calculate me!</h1>
+        <div class=" container  ">
+            <div class="row">
+                <input class="input" id="t1" type="text"/>
+            </div>
+            <div class="row">
+                <button class="button">C</button>
+                <button class="button">%</button>
+                <button class="button">(</button>
+                <button class="button">)</button>
+            </div>
+            <div class="row">
+                <button class="button">7</button>
+                <button class="button">8</button>
+                <button class="button">9</button>
+                <button class="button">*</button>
+            </div>
+            <div class="row">
+                <button class="button">4</button>
+                <button class="button">5</button>
+                <button class="button">6</button>
+                <button class="button">/</button>
+            </div>
+            <div class="row">
+                <button class="button">1</button>
+                <button class="button">2</button>
+                <button class="button">3</button>
+                <button class="button">+</button>
+            </div>
+            <div class="row">
+                <button class="button">0</button>
+                <button class="button">.</button>
+                <button class="button">=</button>
+                <button class="button">-</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
